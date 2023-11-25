@@ -1,5 +1,6 @@
 body {
     display: flex;
+    flex-direction: column;
     background-color:aliceblue;
     justify-content: center;
 }
@@ -64,3 +65,35 @@ header{
     text-align: center;
     align-content: center;
 }
+
+main{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: black;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin: 10px;
+}
+
+.main-text{
+    display: flex;
+    flex: 1;
+    width: 200px;
+    height: 500px;
+    background-color: aquamarine;
+}
+
+.main-picture{
+    display: flex;
+    flex: 1;
+    width: 200px;
+    height: 500px;
+    background-color:blueviolet;
+
+}
+
