@@ -1,42 +1,43 @@
 body {
     display: flex;
     flex-direction: column;
-    background-color:aliceblue;
+    padding: 1%;
+    background-color:white;
     justify-content: center;
 }
 
 header{
     display: flex;
+    justify-content:space-evenly;
 }
 
 .logo{
     display: flex;
-    background-color: blue;
-    padding: 10px;
-    margin: 20px;
+    background-color:white;
     border-radius: 8px;
     width: 650px;
     height: 50px;
-    justify-content: center;
+    justify-content:flex-start;
+    align-items: center;
 }
 
 .img-container{
     display: flex;
-}
-
-.img-logo{
-    flex: 1;
-    border-radius: 100%;
-    padding-right: 20px;
+    margin-left: 50px;
+    width: 50px;
+    height: 50px;
+    padding: 2px;
 }
 
 #name{
     font-family:'Courier New', Courier, monospace;
+    font-size:medium;
 }
 
 .theme{
     display: flex;
-    padding-left: 10px;
+    width: 35px;
+    height: 35px;
 }
 
 .img-dark{
@@ -46,24 +47,25 @@ header{
 
 .options{
     display: flex;
-    background-color: brown;
-    padding: 10px;
-    margin: 20px;
+    background-color: white;
+    justify-content: space-between;
     border-radius: 8px;
     width: 650px;    
     height: 50px;
-    justify-content: center;
+    justify-content: space-evenly;
+    align-items:center;
 }
 
 .option{
     display: flex;
-    flex: 1;
-    margin: 8px;
+    width: 90px;
+    height: 25px;
     border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:small;
     background-color: whitesmoke;
     justify-content: center;
-    text-align: center;
-    align-content: center;
+    align-items: center;
 }
 
 main{
@@ -94,6 +96,5 @@ main{
     width: 200px;
     height: 500px;
     background-color:blueviolet;
-
 }
 
