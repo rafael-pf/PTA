@@ -34,15 +34,22 @@ header{
     font-size:medium;
 }
 
-.theme{
+#theme{
     display: flex;
     width: 30px;
     height: 30px;
+    :hover{
+        cursor: pointer;
+    }
 }
 
 .img-dark{
     flex: 1;
     border-radius: 100%;
+}
+
+.dark-theme{
+    background-color: #292929;
 }
 
 .options{
